@@ -1,0 +1,135 @@
+
+import React from 'react'
+import mans from "./man.jpg"
+import jugal from "./jugal.jpg"
+import "./App.css"
+function App() {
+  return (
+    <div>
+
+<div className="toper">
+
+<div className="top">
+
+<div className="image">
+
+<img src={jugal} alt="" />
+</div>
+
+<div className="info">
+
+<h1>my Information</h1>
+
+<span className='io'>name: </span><span>jugal sharma</span>
+<br />
+<br />
+<span className='io'>phone: </span><span>7006542046</span>
+<br />
+<br />
+<span className='io'>email: </span><span>sjugal126@gmail.com</span>
+<br />
+<br />
+<span className='io'>address: </span><span>Jammu bantalab</span>
+<br />
+<br />
+<span className='io'>language: </span><span>Hindi</span>
+</div>
+</div>
+
+</div>
+
+<div className="line">
+
+</div>
+
+{/* About start row class line */}
+<div className="second">
+
+<div className="profile">
+  <h1>my profile</h1>
+<h2>about Dapps and Mern stack developer </h2>
+<p>
+In summary, a MERN stack developer focuses on building web 
+applications using the MongoDB, Express.js, React, and  
+Node.js stack, while DApps are a type of application 
+ that runs on blockchain networks and can utilize web technologies
+  for their user interfaces. MERN stack developers can play 
+  a role in building the front-end of DApps that interact with 
+   the blockchain, making their skills valuable in the blockchain development space.
+ </p>
+
+ <div className="skill">
+ <h5> techinal skills</h5>
+    <li>frontend data structure </li>
+    <li>MERN stack</li>
+    <li>GraphQl</li>
+    <li>RestAPI</li>
+    <li>Dapps</li>
+    <li>solidity</li>
+    <li>cryptography</li>
+    <li>docker</li>
+    <li>github</li>
+ </div>
+
+</div>
+
+<div className="line1">
+
+</div>
+
+<div className="project">
+
+<h1>my-project  Dapps</h1>
+    <li>NFT-dapps</li>
+
+    <a href="https://github.com/jugalNoob/Nft_Market_Cap">link--dapp Nft</a>
+    <br />
+    <br />
+
+    <li>event-Dapps</li>
+    <a href="https://github.com/jugalNoob/Event_SmartContract_Dapp">link--event Dapps</a>
+    <br />
+    <br />
+    <li>erc-20 Dapps</li>
+    <a href="https://github.com/jugalNoob/ERC-20--Token-Dapp">link--erc-20 Dapps</a>
+    <br />
+    <br />
+
+    <li>Airplan Ticket Book</li>
+    <a href="https://github.com/jugalNoob/Web3AirPlanBook">link--Dapps AirPlan Ticket</a>
+
+<br />
+<br />
+<li>My all Smart contract </li>
+<a href="https://github.com/jugalNoob/SmartContract-project">link--My all Smart Contract</a>
+
+
+<div className="public">
+<h2>my-project  merns stack</h2>
+
+<li>mern-stack REST-Api</li>
+<a href="https://github.com/jugalNoob/Mern-stack-RestApi/">link::Rest-api</a>
+<br />
+<br />
+<li>mern-stack Second Rest-APi</li>
+<a href="https://github.com/jugalNoob/MERN-Advance-RestAPI-Docker-monitoring">link:: Second Rest-APi</a>
+<br />
+<br />
+
+<li>GraphQl Api with CryptoGraphy  </li>
+<a href="https://github.com/jugalNoob/Advance-CryptoGraphy-With-Graph-QL">link::GraphyQl Rest-api</a>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+    </div>
+  )
+}
+
+export default App
